@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer utilities {
+
+  .width-42 { width: 42px; }
+
+  .height-42 { height: 42px; }
+
+  .height-582 { height: 582px; }
+}
+
