@@ -2,7 +2,7 @@
 
 <x-app-layout>
 
-<div class="relative py-32 flex content-center items-center justify-center" style="min-height: 75vh;">
+    <div class="relative py-16 sm:py-32 flex content-center items-center justify-center" style="min-height: 60vh;">
         <div class="absolute top-0 w-full h-full bg-center bg-cover"
             style='background-image: url("https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1267&amp;q=80");'>
             <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
@@ -10,11 +10,11 @@
         <div class="container relative mx-auto">
             <div class="items-center flex flex-wrap">
                 <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                    <div class="pr-12">
-                        <h1 class="text-white font-semibold text-5xl">
+                <div class="pr-0 sm:pr-12">
+                        <h1 class="text-white font-semibold text-2xl sm:text-5xl">
                             Your story starts with us.
                         </h1>
-                        <p class="mt-4 text-lg text-gray-300">
+                        <p class="mt-4 text-md sm:text-lg text-gray-300">
                             This is a simple example of a Landing Page you can build using
                             Tailwind Starter Kit. It features multiple CSS components
                             based on the Tailwindcss design system.
@@ -31,7 +31,7 @@
             </svg>
         </div>
     </div>
-<section class="relative block py-24  bg-gray-500">
+    <section class="relative block py-8 sm:py-24  bg-gray-500">
         <div class="container mx-auto px-4">
             <div class="flex flex-wrap justify-center">
                 <div class="w-full lg:w-6/12 px-4">
@@ -74,5 +74,5 @@
         </div>
     </section>
 
-    
+
 </x-app-layout>

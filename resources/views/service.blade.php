@@ -2,7 +2,7 @@
 
 <x-app-layout>
 
-    <div class="relative py-32 flex content-center items-center justify-center" style="min-height: 75vh;">
+    <div class="relative py-16 sm:py-32 flex content-center items-center justify-center" style="min-height: 60vh;">
         <div class="absolute top-0 w-full h-full bg-center bg-cover"
             style='background-image: url("https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1267&amp;q=80");'>
             <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
@@ -10,11 +10,11 @@
         <div class="container relative mx-auto">
             <div class="items-center flex flex-wrap">
                 <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                    <div class="pr-12">
-                        <h1 class="text-white font-semibold text-5xl">
+                <div class="pr-0 sm:pr-12">
+                        <h1 class="text-white font-semibold text-2xl sm:text-5xl">
                             Your story starts with us.
                         </h1>
-                        <p class="mt-4 text-lg text-gray-300">
+                        <p class="mt-4 text-md sm:text-lg text-gray-300">
                             This is a simple example of a Landing Page you can build using
                             Tailwind Starter Kit. It features multiple CSS components
                             based on the Tailwindcss design system.
@@ -31,10 +31,10 @@
             </svg>
         </div>
     </div>
-    <section class="pb-20 bg-gray-50 -mt-24">
+    <section class="pb-8 sm:pb-20 bg-gray-50 -mt-24">
         <div class="container mx-auto px-4">
             <div class="flex flex-wrap">
-                <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-0 sm:px-4 text-center">
                     <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                         <div class="px-4 py-5 flex-auto">
                             <div
@@ -49,7 +49,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-full md:w-4/12 px-4 text-center">
+                <div class="w-full md:w-4/12 px-0 sm:px-4 text-center">
                     <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                         <div class="px-4 py-5 flex-auto">
                             <div
@@ -64,7 +64,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+                <div class="pt-0 sm:pt-6 w-full md:w-4/12 px-0 sm:px-4 text-center">
                     <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                         <div class="px-4 py-5 flex-auto">
                             <div
@@ -80,8 +80,8 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-wrap items-center mt-16">
-                <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+            <div class="flex flex-wrap items-center mt-6 sm:mt-16">
+                <div class="w-full md:w-5/12 px-0 sm:px-4 mr-auto ml-auto text-center sm:text-left">
                     <div
                         class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -89,29 +89,29 @@
                                 d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" />
                         </svg>
                     </div>
-                    <h3 class="text-3xl mb-2 font-semibold leading-normal">
+                    <h3 class="text-xl sm:text-3xl mb-2 font-semibold leading-6 sm:leading-normal">
                         Working with us is a pleasure
                     </h3>
-                    <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+                    <p class="text-md sm:text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
                         Don't let your uses guess by attaching tooltips and popoves to
                         any element. Just make sure you enable them first via
                         JavaScript.
                     </p>
-                    <p class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
+                    <p class="text-md sm:text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
                         The kit comes with three pre-built pages to help you get started
                         faster. You can change the text and images and you're good to
                         go. Just make sure you enable them first via JavaScript.
                     </p>
                     <a href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-                        class="font-bold text-gray-800 mt-8">Check Tailwind Starter Kit!</a>
+                        class="font-bold text-gray-800 mb-4 sm:mx-8 w-full float-left">Check Tailwind Starter Kit!</a>
                 </div>
-                <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+                <div class="w-full md:w-4/12 px-0 sm:px-4 mr-auto ml-auto">
                     <div
                         class="relative flex flex-col min-w-0 break-words  w-full mb-6 shadow-lg rounded-lg bg-indigo-600">
                         <img alt="..."
                             src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1051&amp;q=80"
                             class="w-full align-middle rounded-t-lg" />
-                        <blockquote class="relative p-8 mb-4">
+                        <blockquote class="relative p-5 sm:p-8 mb-0 sm:mb-4">
                             <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
                                 class="absolute left-0 w-full block" style="height: 95px; top: -94px;">
                                 <polygon points="-30,95 583,95 583,65" class="text-indigo-600 fill-current"></polygon>
@@ -130,7 +130,7 @@
             </div>
         </div>
     </section>
-    <section class="relative py-20">
+    <section class="relative py-8 sm:py-20">
         <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
             style="height: 80px;">
             <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
@@ -140,14 +140,14 @@
         </div>
         <div class="container mx-auto px-4">
             <div class="items-center flex flex-wrap">
-                <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+                <div class="w-full md:w-4/12 ml-auto mr-auto px-0 sm:px-4 ">
                     <img alt="..." class="max-w-full rounded-lg shadow-lg"
                         src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80" />
                 </div>
-                <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
-                    <div class="md:pr-12">
+                <div class="w-full md:w-5/12 ml-auto mr-auto px-0 sm:px-4 mt-6 sm:mt-0">
+                    <div class="md:pr-12 text-center sm:text-left">
                         <div
-                            class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
+                            class="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-indigo-600">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
                                 fill="currentColor">
                                 <path fill-rule="evenodd"
@@ -155,8 +155,8 @@
                                     clip-rule="evenodd" />
                             </svg>
                         </div>
-                        <h3 class="text-3xl font-semibold">A growing company</h3>
-                        <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                        <h3 class="text-xl sm:text-3xl font-semibold">A growing company</h3>
+                        <p class="mt-4 text-md sm:text-lg leading-relaxed text-gray-600">
                             The extension comes with three pre-built pages to help you get
                             started faster. You can change the text and images and you're
                             good to go.
@@ -166,7 +166,7 @@
                                 <div class="flex items-center">
                                     <div>
                                         <span
-                                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3">
+                                            class="w-10 h-10 flex items-center justify-center text-xs font-semibold py-1 px-2 uppercase rounded-full text-white bg-indigo-600 mr-3">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -184,7 +184,7 @@
                                 <div class="flex items-center">
                                     <div>
                                         <span
-                                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3">
+                                            class="w-10 h-10 flex items-center justify-center text-xs font-semibold py-1 px-2 uppercase rounded-full text-white bg-indigo-600 mr-3">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -201,7 +201,7 @@
                                 <div class="flex items-center">
                                     <div>
                                         <span
-                                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3">
+                                            class="w-10 h-10 flex items-center justify-center text-xs font-semibold  py-1 px-2 uppercase rounded-full text-white bg-indigo-600 mr-3">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
                                                 fill="currentColor">
                                                 <path
@@ -220,12 +220,12 @@
             </div>
         </div>
     </section>
-    <section class="py-20">
+    <section class="py-8 sm:py-20">
         <div class="container mx-auto px-4">
-            <div class="flex flex-wrap justify-center text-center mb-24">
-                <div class="w-full lg:w-6/12 px-4">
-                    <h2 class="text-4xl font-semibold">Here are our heroes</h2>
-                    <p class="text-lg leading-relaxed m-4 text-gray-600">
+            <div class="flex flex-wrap justify-center text-center mb-10 sm:mb-24">
+                <div class="w-full lg:w-6/12 px-0 sm:px-4">
+                    <h2 class="text-xl sm:text-3xl font-semibold">Here are our heroes</h2>
+                    <p class="text-md sm:text-lg leading-relaxed m-2 sm:m-4 text-gray-600">
                         According to the National Oceanic and Atmospheric
                         Administration, Ted, Scambos, NSIDClead scentist, puts the
                         potentially record maximum.
@@ -233,7 +233,7 @@
                 </div>
             </div>
             <div class="flex flex-wrap">
-                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-6 px-4">
                     <div class="px-6">
                         <img alt="..." src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"
                             class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
@@ -246,7 +246,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-6 px-4">
                     <div class="px-6">
                         <img alt="..." src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"
                             class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
@@ -259,7 +259,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-6 px-4">
                     <div class="px-6">
                         <img alt="..." src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"
                             class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
@@ -272,7 +272,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-6 px-4">
                     <div class="px-6">
                         <img alt="..." src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"
                             class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
@@ -288,35 +288,35 @@
             </div>
         </div>
     </section>
-    <section class="pb-20 relative block bg-gray-900">
+    <section class="pb-8 sm:pb-20 relative block bg-indigo-600 sm:pt-0 pt-8">
         <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
             style="height: 80px;">
             <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
                 version="1.1" viewBox="0 0 2560 100" x="0" y="0">
-                <polygon class="text-gray-900 fill-current" points="2560 0 2560 100 0 100"></polygon>
+                <polygon class="text-indigo-600 fill-current" points="2560 0 2560 100 0 100"></polygon>
             </svg>
         </div>
-        <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+        <div class="container mx-auto px-4 lg:pt-24 lg:pb-16">
             <div class="flex flex-wrap text-center justify-center">
-                <div class="w-full lg:w-6/12 px-4">
-                    <h2 class="text-4xl font-semibold text-white">Build something</h2>
-                    <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
+                <div class="w-full lg:w-6/12 px-0 sm:px-4">
+                    <h2 class="text-xl sm:text-3xl font-semibold text-white">Build something</h2>
+                    <p class="text-md sm:text-lg leading-relaxed mt-4 mb-4 text-gray-100">
                         Put the potentially record low maximum sea ice extent tihs year
                         down to low ice. According to the National Oceanic and
                         Atmospheric Administration, Ted, Scambos.
                     </p>
                 </div>
             </div>
-            <div class="flex flex-wrap mt-12 justify-center">
+            <div class="flex flex-wrap mt-8 sm:mt-12 justify-center">
                 <div class="w-full lg:w-3/12 px-4 text-center">
                     <div
-                        class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                        <i class="fas fa-medal text-xl"></i>
+                        class="text-gray-900 p-2 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
+                        <i class="bi bi-arrow-up-right-square text-xl"></i>
                     </div>
                     <h6 class="text-xl mt-5 font-semibold text-white">
                         Excelent Services
                     </h6>
-                    <p class="mt-2 mb-4 text-gray-500">
+                    <p class="mt-2 mb-4 text-gray-100">
                         Some quick example text to build on the card title and make up
                         the bulk of the card's content.
                     </p>
@@ -324,12 +324,12 @@
                 <div class="w-full lg:w-3/12 px-4 text-center">
                     <div
                         class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                        <i class="fas fa-poll text-xl"></i>
+                        <i class="bi bi-graph-up text-xl"></i>
                     </div>
                     <h5 class="text-xl mt-5 font-semibold text-white">
                         Grow your market
                     </h5>
-                    <p class="mt-2 mb-4 text-gray-500">
+                    <p class="mt-2 mb-4 text-gray-100">
                         Some quick example text to build on the card title and make up
                         the bulk of the card's content.
                     </p>
@@ -337,10 +337,10 @@
                 <div class="w-full lg:w-3/12 px-4 text-center">
                     <div
                         class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                        <i class="fas fa-lightbulb text-xl"></i>
+                        <i class="bi bi-stopwatch text-xl"></i>
                     </div>
                     <h5 class="text-xl mt-5 font-semibold text-white">Launch time</h5>
-                    <p class="mt-2 mb-4 text-gray-500">
+                    <p class="mt-2 mb-4 text-gray-100">
                         Some quick example text to build on the card title and make up
                         the bulk of the card's content.
                     </p>
@@ -348,6 +348,6 @@
             </div>
         </div>
     </section>
-    
+
 
 </x-app-layout>
